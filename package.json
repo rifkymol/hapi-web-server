@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/rifkymol/hapi-web-server/issues"
   },
-  "homepage": "https://github.com/rifkymol/hapi-web-server#readme"
+  "homepage": "https://github.com/rifkymol/hapi-web-server#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2"
+  }
 }
