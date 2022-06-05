@@ -40,7 +40,6 @@ const routes = [
         handler: (request, h) => {
             const { name = "Stranger" } = request.params;
             const { lang } = request.query;
-            console.log(request.query);
 
             if (lang === 'id') {
                 return `Yahallo! ${name}!`;
